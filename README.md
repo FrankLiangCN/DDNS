@@ -33,10 +33,10 @@ wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bas
 
 <summary>Telegram</summary>
 
-一个用于接收 ddns-go 通知的 Telegram 机器人
+一个用于接收 [ddns-go][ddns-go] 通知的 Telegram 机器人
 
 ## 使用
-1. 打开并启用 @DDNSGoBot
+1. 打开并启用 [@DDNSGoBot][DDNSGoBot]
 2. 发送 /gethook 命令
 3. 复制 Webhook URL 并粘贴
 4. 复制 RequestBody 并粘贴
@@ -61,4 +61,6 @@ wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bas
 
 </details>
 
+[ddns-go]: https://github.com/jeessy2/ddns-go
+[DDNSGoBot]: https://t.me/DDNSGoBot
 [telegram-bot]: https://github.com/WingLim/ddns-telegram-bot
