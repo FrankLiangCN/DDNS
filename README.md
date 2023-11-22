@@ -11,3 +11,7 @@ wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bas
 ```
 
 安装完成后请打开 http://IP:9876 端口进行配置
+
+
+# Webhook
+[Telegram]https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns-telegram-bot.md
