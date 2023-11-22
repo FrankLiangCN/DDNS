@@ -1,6 +1,6 @@
 # DDNS
 
-## 一键DDNS（基于ddns-go)
+## 一键DDNS（基于[ddns-go][ddns-go])
 
 自动判断CPU架构，并下载最新版本二进制文件
 
