@@ -4,7 +4,7 @@
 
 自动判断CPU架构，并下载最新版本二进制文件
 
-## 一键脚本命令：
+### 一键脚本命令：
 
 ```
 wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bash
