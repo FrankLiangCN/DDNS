@@ -14,4 +14,6 @@ wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bas
 
 
 # Webhook
-[Telegram]: https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns-telegram-bot.md
+[Telegram][telegram-bot]
+
+[telegram-bot]: https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns-telegram-bot.md
