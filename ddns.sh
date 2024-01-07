@@ -14,3 +14,4 @@ rm -rf ./ddns
 mkdir -p /opt/ddns-go
 ddns-go -s install -f 10 -cacheTimes 360 -c /opt/ddns-go/.ddns_go_config.yaml
 systemctl start ddns-go
+systemctl enable ddns-go
