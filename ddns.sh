@@ -2,6 +2,7 @@
 apt update && apt install -y curl
 systemctl stop ddns-go
 rm /usr/bin/ddns-go
+rm -rf /opt/ddns-go
 mkdir ./ddns
 cd ./ddns
 uname -m | grep -qi aarch64 && oarch=linux_arm64 || oarch=linux_x86_64;
