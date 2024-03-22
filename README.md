@@ -14,7 +14,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.s
 wget -qO- https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh | bash
 ```
 
-安装完成后请打开 http://IP:9876 端口进行配置
+安装完成后请访问 http://IP:9876 进行初始化配置
 
 
 ## Webhook
