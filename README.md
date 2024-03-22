@@ -7,7 +7,7 @@
 ### 一键脚本命令：
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/FrankLiangCN/DDNS/main/ddns.sh)
 ```
 ### 或者
 ```
