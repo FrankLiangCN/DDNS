@@ -5,7 +5,16 @@ rm /usr/bin/ddns-go
 #rm -rf /opt/ddns-go
 mkdir ./ddns
 cd ./ddns
-uname -m | grep -qi aarch64 && oarch=linux_arm64 || uname -m | grep -qi armv7l && oarch=linux_armv7 || oarch=linux_x86_64;
+#uname -m | grep -qi aarch64 && oarch=linux_arm64 || oarch=linux_x86_64;
+
+if uname -m | grep -qi aarch64; then
+  oarch=linux_arm64
+elif uname -m | grep -qi armv7l; then
+  oarch=linux_armv7
+else
+  oarch=linux_x86_64
+fi
+
 wget "$(curl -s https://api.github.com/repos/jeessy2/ddns-go/releases/latest|grep -i "browser_download_url.*${oarch}"|awk -F '"' '{print $(NF-1)}')";
 tar -xzvf ./ddns*.tar.gz
 chmod +x ./ddns-go
